@@ -1,0 +1,22 @@
+body
+{
+    background-color: antiquewhite;
+}
+
+h1
+{
+    color: #472904;
+    text-align: center;
+    background-color: bisque;
+}
+hr{
+    size: 5;
+}
+h2
+{
+    text-align: center;
+}
+.tensler
+{
+    font-size: large;
+}
