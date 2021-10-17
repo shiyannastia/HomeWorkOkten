@@ -6,7 +6,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .aaa,.bbb,.ccc
 {
@@ -27,6 +26,9 @@ img{
 }
 h1{
     font-size: 50px;
+}
+h3{
+    border-bottom: 2px solid black;
 }
 p{
     font-size: 25px;
