@@ -10,7 +10,9 @@ h1
     background-color: bisque;
 }
 hr{
-    size: 5;
+    height: 37px;
+    border: bisque;
+    background-color: bisque;
 }
 h2
 {
@@ -20,3 +22,11 @@ h2
 {
     font-size: large;
 }
+img{
+   height: 385px;
+    border-top:37px bisque solid;
+    border-bottom:37px bisque solid;
+}
+
+
+
