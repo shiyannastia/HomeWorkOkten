@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ee {
+    width: 700px;
+    height: 1000px;
+}
+
+.header, .postitem, .footer {
+    width: 100%;
+    height: 150px;
+}
+
+.menupost, .post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.menupost {
+    width: 100%;
+}
+
+.menu {
+    width: 35%;
+    height: 300px;
+    grid-column-gap: 10px;
+}
+
+.post {
+    width: 65%;
+    flex-direction: column;
+}
+
+.header, .menu, .postitem, .footer {
+    background-color: #505050;
+    border: 5px solid white  ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+}
