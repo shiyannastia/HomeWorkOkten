@@ -35,7 +35,7 @@ function p_text(text) {
     document.write(`<p>${text}</p>`)
 }
 
-p_text('ppp')
+p_text('ppp');
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 function ul(text) {
@@ -69,6 +69,7 @@ function all(array) {
     }
     document.write(`</ul>`);
 }
+
 all(array);
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
@@ -77,11 +78,13 @@ let simpson = [
     {id: 2, name: 'Lisa', age: 9},
     {id: 3, name: 'Maggie', age: 1}
 ]
-function object(simpson){
+
+function object(simpson) {
     document.write(`<div>`)
     for (let simpsonChildren of simpson) {
-                document.write(`<div>${simpsonChildren.id}.${simpsonChildren.name} - ${simpsonChildren.age}</div>`);
-            }
+        document.write(`<div>${simpsonChildren.id} - ${simpsonChildren.name} - ${simpsonChildren.age}</div>`);
+    }
     document.write(`</div>`)
 }
+
 object(simpson);
